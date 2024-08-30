@@ -4,6 +4,8 @@ This example creates a table to store a somewhat validated [Finnish personal ID 
 supports the new separators from the [2023 id code reform][reform]. Test ID numbers generated using the awesome [generator by
 telepartikkeli][generator].
 
+I say _somewhat validated_ because it doesn't currently validate the checksum of the identity code. See below to do list.
+
 ## Usage
 
 - Run the scripts in [setup.sql](setup.sql) to create the needed type and table
