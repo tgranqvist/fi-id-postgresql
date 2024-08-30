@@ -4,6 +4,12 @@ This example creates a table to store a somewhat validated [Finnish personal ID 
 supports the new separators from the [2023 id code reform][reform]. Test ID numbers generated using the awesome [generator by
 telepartikkeli][generator].
 
+## Usage
+
+- Run the scripts in [data.sql](data.sql) to create the needed type and table
+- Insert test data into table
+- Run `select * from people`
+
 ## Todo
 
 - Create a stored procedure that validates the check digit:
