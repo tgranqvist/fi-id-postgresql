@@ -6,16 +6,17 @@ telepartikkeli][generator].
 
 ## Usage
 
-- Run the scripts in [data.sql](data.sql) to create the needed type and table
-- Insert test data into table
+- Run the scripts in [setup.sql](setup.sql) to create the needed type and table
+- Insert [test data](testdata.sql) into table
 - Run `select * from people`
 
 ## Todo
 
 - Create a stored procedure that validates the check digit:
   - modulo 31 of the nine-digit `ddmmyyid`
-  - lookup: `0123456789ABCDEFHJKLMNPRSTUVWXY`
+  - lookup reuslt from `0123456789ABCDEFHJKLMNPRSTUVWXY`
 - Extract substring date mangling into a user function
+- Calculate current age based on personal id code
 
 ## Code review
 
